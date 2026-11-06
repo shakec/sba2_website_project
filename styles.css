@@ -38,6 +38,17 @@ nav ul {
     width: auto;
 }
 
+.hero, img {
+    max-inline-size: 100%;
+    block-size: auto;
+}
+
+.hero section {
+    width: auto;
+    height: 400px;
+    overflow: hidden;
+}
+
 main {
     padding: 24px;
     display: grid;
