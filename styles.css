@@ -12,6 +12,11 @@ nav {
     background-color: #ccc;
 }
 
+nav img {
+    width: 120px;
+    height: auto;
+}
+
 .hero {
     background-color: antiquewhite;
     padding: 45px;
