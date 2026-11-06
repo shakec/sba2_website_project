@@ -6,50 +6,63 @@
     <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
+
 <body>
     <!-- header -->
      <header>
         <!-- nav -->
-        <nav>
+        <nav role="navigation">
             <ul>
                 <li><a href="#">Link 1</a></li>
                 <li><a href="#">Link 2</a></li>
                 <li><a href="#">Link 3</a></li>
             </ul>
         </nav>
+        
         <!-- hero image -->
-         <section>
+         <section class="hero">
             <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
-            <img src="" />
+            <!-- <img src="" /> -->
          </section>
     </header>
+    
     <!-- main -->
     <main>
+        <div class="description">
         <!-- description -->
-         <h2>A detailed summary about the why</h2>
-         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, mollitia sapiente aliquid doloribus quos ipsa illo provident rerum blanditiis tenetur, assumenda veritatis! Repellat quo, in eos sint accusantium ratione odit?</p>
+            <h2>A detailed summary about the why</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, mollitia sapiente aliquid doloribus quos ipsa illo provident rerum blanditiis tenetur, assumenda veritatis! Repellat quo, in eos sint accusantium ratione odit?</p>
+        </div>
         <!-- form -->
-         <form>
-            <h3>Form header</h3>
-            <label for="name">Full name</label>
-            <input type="text" id="name" name="name">
-            <label for="name">Email</label>
-            <input type="text" id="email" name="email">
-            <label for="name">Address</label>
-            <input type="text" id="address" name="address">
-            <label for="name">City</label>
-            <input type="text" id="city" name="city">
-            <label for="name">State</label>
-            <input type="text" id="state" name="state">
-            <label for="name">Zipcode</label>
-            <input type="text" id="zipcode" name="zipcode">
-            <button>Submit form</button>
-         </form>
+        
+        <form>
+            <header>
+                <h3>Form header</h3>
+            </header>
+            <section>
+                <label for="name">Full name</label>
+                <input type="text" id="name" name="name">
+                <label for="name">Email</label>
+                <input type="text" id="email" name="email">
+                <label for="name">Address</label>
+                <input type="text" id="address" name="address">
+                <div class="grid">
+                    <label for="name">City</label>
+                    <input type="text" id="city" name="city">
+                    <label for="name">State</label>
+                    <input type="text" id="state" name="state">
+                    <label for="name">Zipcode</label>
+                    <input type="text" id="zipcode" name="zipcode">
+                </div>
+                <button role="button">Submit form</button>
+                </section>
+        </form>
     </main>
-    <!-- main -->
+    
     <!-- footer -->
      <footer>
         <!-- stuff here -->
      </footer>
 </body>
+
 </html>
