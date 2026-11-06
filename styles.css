@@ -79,10 +79,14 @@ main {
     grid-template-columns: 100px repeat(auto-fil, 100px) 200px;
 }
 
-.description {
+.about {
     width: auto;
     height: 100%;
     padding: 45px;
+}
+
+.about h2 {
+    text-transform: capitalize;
 }
 
 /* FORM */
@@ -146,3 +150,30 @@ form button {
 }
 
 /* FOOTER */
+footer {
+    background-color: #f4f4f4;
+    border-top: 1px solid #00000050;
+    margin-top: 100px;
+    padding: 45px;
+}
+
+footer img {
+    width: 300px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(15, 15, 15);
+}
+
+footer a:hover {
+    color: #640ca5;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
