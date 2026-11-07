@@ -75,8 +75,9 @@ nav a:hover {
 /* MAIN */
 main {
     padding: 24px;
-    display: grid;
-    grid-template-columns: 100px repeat(auto-fil, 100px) 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 
 .about {
@@ -87,6 +88,35 @@ main {
 
 .about h2 {
     text-transform: capitalize;
+}
+
+#services {
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 45px;
+    padding-bottom: 45px;
+}
+
+.services-article {
+    width: auto;
+    height: 100%;
+    padding: 45px;
+}
+
+#services-cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 45px;
+}
+
+.card {
+    background: #a40035;
+    width: 300px;
+    height: fit-content;
+    padding: 24px;
+    border-radius: 8px;
+    color: whitesmoke;
 }
 
 /* FORM */
@@ -137,7 +167,11 @@ button {
     font-weight: 600;
     border-style: none;
     background: #640ca5;
-    color: #f4f4f4;
+    color: whitesmoke;
+}
+
+button:focus {
+    box-shadow: #640ca5;
 }
 
 button:hover {
@@ -151,29 +185,30 @@ form button {
 
 /* FOOTER */
 footer {
-    background-color: #f4f4f4;
     border-top: 1px solid #00000050;
     margin-top: 100px;
     padding: 45px;
 }
 
-footer img {
+footer #logo {
     width: 300px;
 }
 
 footer ul {
     list-style-type: none;
     padding-inline-start: 0;
+    display: flex;
+    gap: 12px;
 }
 
-footer a {
+/* footer a {
     text-decoration: none;
     color: rgb(15, 15, 15);
-}
+} */
 
-footer a:hover {
+/* footer a:hover {
     color: #640ca5;
     font-weight: 600;
     text-decoration: underline;
     text-decoration-style: wavy;
-}
+} */

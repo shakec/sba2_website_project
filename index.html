@@ -37,12 +37,35 @@
     
     <!-- main -->
     <main>
-        <section>
-            <article class="about">
-            <!-- about us -->
-                <h2>A bit about us and what we do!</h2>
+        <article class="about">
+        <!-- about us -->
+            <h2>A bit about us!</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, mollitia sapiente aliquid doloribus quos ipsa illo provident rerum blanditiis tenetur, assumenda veritatis! Repellat quo, in eos sint accusantium ratione odit?</p>
+        </article>
+
+        <section id="services">
+            <article class="services-article">
+            <!-- services -->
+                <h2>And, what we do!</h2>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, mollitia sapiente aliquid doloribus quos ipsa illo provident rerum blanditiis tenetur, assumenda veritatis! Repellat quo, in eos sint accusantium ratione odit?</p>
             </article>
+            <section id="services-cards">
+                <div class="card">
+                    <!-- <img src=""> -->
+                    <h2>Service 1</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, nam exercitationem consectetur omnis blanditiis doloribus dolorum veritatis at, ratione nesciunt, vel minus quis atque beatae velit tempore? Suscipit, magni quos.</p>
+                </div>
+                <div class="card">
+                    <!-- <img src=""> -->
+                    <h2>Service 2</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, nam exercitationem consectetur omnis blanditiis doloribus dolorum veritatis at, ratione nesciunt, vel minus quis atque beatae velit tempore? Suscipit, magni quos.</p>
+                </div>
+                <div class="card">
+                    <!-- <img src=""> -->
+                    <h2>Service 3</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, nam exercitationem consectetur omnis blanditiis doloribus dolorum veritatis at, ratione nesciunt, vel minus quis atque beatae velit tempore? Suscipit, magni quos.</p>
+                </div>
+            </section>
         </section>
         
         <!-- form -->
@@ -53,13 +76,16 @@
             <section>
                 <div class="column">
                     <label for="name">Full name</label>
-                    <input type="text" id="name" name="name">
+                    <input type="text" id="name" name="name" placeholder="Matt Murdock">
                     <label for="name">Email</label>
-                    <input type="text" id="email" name="email">
-                    <label for="name">Address</label>
-                    <input type="text" id="address" name="address">
+                    <input type="text" id="email" name="email" placeholder="matt.murdock@nmlaw.com">
+                    <label for="name">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="Accessibility for all">
+                    <label for="story">Message</label>
+                    <textarea id="story" name="story" rows="5" cols="33">As the defender of Hell's Kitchen we'd like to partner with ADC...</textarea>
+                    <button role="button">Submit form</button>
                 </div>
-                <div class="grid">
+                <!-- <div class="grid">
                     <div>
                         <label for="name">City</label>
                         <input type="text" id="city" name="city">
@@ -69,20 +95,20 @@
                         <input type="text" id="state" name="state">
                     </div>
                 </div>
-                <button role="button">Submit form</button>
-                </section>
+                </section> -->
         </form>
     </main>
     
     <!-- footer -->
      <footer>
-        <img src="./images/adc_logotype.png">
+        <img src="./images/adc_logotype.png" id="logo">
         <ul>
-            <li><a href="Home">Home</a></li>
-            <li><a href="#About Us">About Us</a></li>
-            <li><a href="#Services">Services</a></li>
-            <li><a href="#Contact">Contact</a></li>
+            <li><img src="./images/instagram.png"></li>
+            <li><img src="./images/linkedin.png"></li>
+            <li><img src="./images/tiktok.png"></li>
+            <li><img src="./images/x.png"></li>
         </ul>
+        <p>12345 Accessible Way Design, CO 67890</p>
         <small>
             Copyright &copy 2026 Accessible Design Co. by Shakeam.
         </small>
