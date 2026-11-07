@@ -212,3 +212,12 @@ footer ul {
     text-decoration: underline;
     text-decoration-style: wavy;
 } */
+
+@media (max-width: 768px) {
+   body { background-color: aquamarine; }
+
+   .cards {
+        display: flex;
+        flex-direction: row;
+   }
+}
